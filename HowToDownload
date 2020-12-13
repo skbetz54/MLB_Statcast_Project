@@ -1,0 +1,13 @@
+# Downloading your own baseballsavant data
+
+This is a simple guide to download datasets that you can run these models to determine the accuracy for any given team, season, or any other criterion:
+
+1.  Go to the [baseballsavant Statcast search] (https://baseballsavant.mlb.com/statcast_search).
+2.  In the left-hand column, change "Player Type" to "Batter".
+3.  You can also specify which team to use in this column.
+4.  In the middle column you can specify which season(s) you would like to pick.
+5.  Click "Search".
+6.  Once the query is finished running, you will notice three logos on the right-hand side. Click the rightmost logo "Download Data as Comma Separated Values File".
+7.  DO NOT click on the middle logo "Download Results...". This will not give you pitch-by-pitch data.
+8.  Once the data is downloaded and saved, open the Python-compatible notebook of your choice (Google Colab, Jupyter, etc.).
+9.  Import and clean the data according to the "Statcast - Data Cleaning" notebook in this repository.
