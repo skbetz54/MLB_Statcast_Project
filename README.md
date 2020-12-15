@@ -9,6 +9,8 @@ This classification problem consists of two parts:
 
 ## Table of Contents
 
+- [Statcast_Classification](https://github.com/skbetz54/MLB_Statcast_Project/blob/main/Statcast_Classification.ipynb) - Google Colab notebook that contains both parts of the work done for the classification models
+
 - [Statcast_Data_Cleaning.ipynb](https://github.com/skbetz54/MLB_Statcast_Project/blob/main/Statcast_Data_Cleaning.ipynb) - Google Colab notebook detailing the data cleaning process I went through to get the dataset ready for input into my models
 
 - [Statcast_EDA.ipynb](https://github.com/skbetz54/MLB_Statcast_Project/blob/main/Statcast_EDA.ipynb) - Google Colab notebook that includes several visualizations of the dataset.
